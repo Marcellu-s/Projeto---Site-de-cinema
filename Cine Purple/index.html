@@ -58,41 +58,53 @@
 <body>
 
     <!--Header-->
-    <div class="flex justify-content-center full bg-dark">
+    <div class="full bg-dark">
 
-        <header style="background-color: #ff3c6d;" class="py-3 container-fluid fixed-top">
-            <div class="container d-flex flex-wrap justify-content-center">
-                <a href="#" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
-                    <svg class="bi me-2" width="40" height="32">
-                        <use xlink:href="#bootstrap" />
-                    </svg>
-                    <span class="fs-4">Cine Purple</span>
-                    <ul class="nav me-auto">
-                        <li class="nav-item"><a href="#" class="nav-link link px-2 active" aria-current="page">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Gêneros
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#acao">Ação</a></li>
-                                <li><a class="dropdown-item" href="#comedia">Comédia</a></li>
-                                <li><a class="dropdown-item" href="#terror">Terror</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a href="#" class="nav-link link px-2">Pré-vendas</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link link px-2">Próximas estreias</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link link px-2">Promoções</a></li>
+        <header class="container fixed-top">
+            <nav class="navbar navbar-expand-lg" style="background-color: #ff3c6d;">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/gem-regular.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                        Cine Purple
+                    </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link link" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Gêneros
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#acao">Ação</a></li>
+                            <li><a class="dropdown-item" href="#comedia">Comédia</a></li>
+                            <li><a class="dropdown-item" href="#terror">Terror</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link link" href="#">Pré-Venda</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link link" href="#">Próximas estreias</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link link" href="#">Promoções</a>
+                      </li>
                     </ul>
-                </a>
-                <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
-                    <input type="search" class="form-control" placeholder="Filme ou cidade" aria-label="Search">
-                </form>
-            </div>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                  </div>
+                </div>
+            </nav>
         </header>
-        
-        <br><br><br><br>
+
+        <br><br><br>
         
         <!--Main-->
 
