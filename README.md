@@ -1,9 +1,9 @@
 # Projeto - Site de cinema
 
-Trabalho acadêmico.
-Site de cinema.
-Trabalho avaliativo
-Senai Suiço-Brasileira
-Desenvolvimento de Sistemas
-1º semestre.
+<p>* Trabalho acadêmico</p>
+
+<p>Projeto criado a partir de uma requisição avaliativa.</p>
+
+
+<p>OBS: Eu não possuo as imagens e nomes. Todos os direitos reservados para seus respectivos proprietários! Este projeto não pretende violar qualquer dos direitos autorais.</p>
 
