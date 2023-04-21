@@ -6,6 +6,5 @@ Integrantes do projeto:
 <a href="https://github.com/marcellu-s">Marcelo Costa</a>
 <a href="https://github.com/MatthewsTomts">Matheus Farias</a>
 <a href="https://github.com/Rodrigo-Martins-Mateus">Rodrigo Martins</a>
-<a href="https://github.com/VerNancio">Vinicius Oliveira</a>
 
 Realizado no: 1º Semestre 2022/2023
